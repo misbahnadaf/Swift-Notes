@@ -54,5 +54,19 @@ Animal makes a sound
 Dog barks
 ~~~
 
+### Question 3: What is Extansion?  
+
+Ans - An extension in Swift lets you add new functionality to an existing type (like Int, String, Double, etc.) without modifying its original code.  
+
+You can:
+
+- Add new functions
+- Add computed properties
+- Add initializers
+- Make the type conform to protocols
+
+
+
+
 
 
