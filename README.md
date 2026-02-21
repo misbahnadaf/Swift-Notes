@@ -65,7 +65,29 @@ You can:
 - Add initializers
 - Make the type conform to protocols
 
+Example  
 
+~~~swift
+extension String {
+    var isNotEmpty: Bool {
+        return !self.isEmpty
+    }
+}
+let name = "Misbah"
+print(name.isNotEmpty)   // true
+~~~
+
+**Add a function to check even or odd**  
+~~~swift
+extension Int {
+    func isEven() -> Bool {
+        return self % 2 == 0
+    }
+}
+
+print(10.isEven())  // true
+print(7.isEven())   // false
+~~~
 
 
 
