@@ -90,5 +90,41 @@ print(7.isEven())   // false
 ~~~
 
 
+ ### Que.3 What is Enum?  
+ **Ans**  - Enum is used to define a fixed set of related values.   
+ **Ex**  
+ ~~~swift
+enum TrafficLight {
+    case red
+    case yellow
+    case green
+}
+~~~
+Use it like  
+~~~swift
+var signal = TrafficLight.red
+
+signal = .green
+~~~
+We can check the value using switch:  
+~~~swift
+
+switch signal {
+case .red:
+    print("Stop")
+    
+case .yellow:
+    print("Get Ready")
+    
+case .green:
+    print("Go")
+}
+~~~
+Output:  
+~~~swift
+Go
+~~~
+
+  
 
 
