@@ -90,7 +90,7 @@ print(7.isEven())   // false
 ~~~
 
 
- ### Que.3 What is Enum?  
+ ### Que.4 What is Enum?  
  **Ans**  - Enum is used to define a fixed set of related values.   
  **Ex**  
  ~~~swift
