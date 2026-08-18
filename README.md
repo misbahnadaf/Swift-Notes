@@ -316,6 +316,23 @@ class Animal {
     }
 }
 ~~~
+
+  ### Que 6 Protocols  
+  **Ans** 
+  A protocol in Swift is a blueprint that defines a set of methods, properties, and other requirements. Any class, struct, or enum that adopts the protocol must implement those requirements, enabling abstraction, polymorphism, and code reuse.  
+  **Why Use Protocols?**    
+  Protocols help you:  
+  
+1.Achieve abstraction by defining behavior without tying it to a specific implementation.  
+2.Write reusable code that works with any conforming type.  
+3.Reduce coupling, making code easier to test and maintain.  
+4.Implement common design patterns, such as delegation.  
+
+  
+
+
+  
+
   
 
      
