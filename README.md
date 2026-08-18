@@ -334,7 +334,74 @@ class Animal {
   
 
   
+### Que 7. Functions  
+**Ans**  
+A function is a block of code that performs a specific task.  
+Instead of writing the same code again and again, we write it once inside a function and call it whenever we need it.  
+Ex.    
+~~~swift
+func greet() {
+    print("Hello!")
+}
 
+greet()
+~~~
+Output  
+~~~swift
+Hello!
+~~~
+
+**1. Function without parameters**  
+A function can perform a task without receiving any input.  
+~~~swift
+func sayHello() {
+    print("Hello, Swift!")
+}
+
+sayHello()
+~~~. 
+Output:
+~~~swift
+Hello, Swift!
+~~~
+
+  **2. Function with parameters**. 
+A parameter is an input given to a function.  
+~~~swift
+func greet(name: String) {
+    print("Hello \(name)")
+}
+
+greet(name: "Misbah")
+~~~  
+Output:  
+~~~swift
+Hello Misbah
+~~~  
+Here:   
+~~~swift   
+name: String
+~~~   
+is the parameter.  
+And:  
+~~~swift    
+"Misbah"
+~~~  
+is the value we pass to it.  
+Another example  
+~~~swift  
+func add(a: Int, b: Int) {
+    print(a + b)
+}
+add(a: 10, b: 20)
+~~~  
+Output:  
+~~~swift  
+30  
+~~~
+
+
+ 
      
 
           
