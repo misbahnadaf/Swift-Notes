@@ -352,16 +352,16 @@ Hello!
 ~~~
 
 **1. Function without parameters**  
-A function can perform a task without receiving any input.  
-~~~swift
+A function can perform a task without receiving any input.    
+~~~swift  
 func sayHello() {
     print("Hello, Swift!")
 }
 
 sayHello()
-~~~. 
-Output:
-~~~swift
+~~~   
+Output:  
+~~~swift  
 Hello, Swift!
 ~~~
 
@@ -493,6 +493,8 @@ func greet(_ name: String) {
 
 greet("Ali")
 ~~~
+
+  
 
 
 
