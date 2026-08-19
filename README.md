@@ -400,6 +400,102 @@ Output:
 30  
 ~~~
 
+ **3. Function that returns a value**  
+Sometimes we don't just want the function to perform an action—we want it to give us a result.  
+We use return.  
+~~~swift. 
+func add(a: Int, b: Int) -> Int {
+    return a + b
+}
+
+let result = add(a: 10, b: 20)
+
+print(result) 
+~~~
+
+Output:
+~~~swift   
+30
+~~~
+
+Here:  
+~~~swift  
+-> Int
+~~~  
+means the function will return an Integer.  
+
+**4. Function with String return value**  
+~~~swift  
+func getName() -> String {
+    return "Misbah"
+}
+
+let name = getName()
+
+print(name)
+~~~
+
+Output:  
+~~~swift  
+Misbah
+~~~
+
+  **5. Function with multiple parameters**  
+  ~~~swift
+func studentInfo(name: String, age: Int) {
+    print("Name: \(name)")
+    print("Age: \(age)")
+}
+
+studentInfo(name: "Sara", age: 5)
+~~~
+
+Output:  
+~~~swift  
+Name: Sara
+Age: 5
+~~~
+
+**6. Function with no return value**  
+
+If a function only performs an action, you don't need to write a return type.  
+~~~swift  
+func welcome() {
+    print("Welcome to Swift")
+}
+~~~
+
+This is equivalent to a function returning Void.  
+~~~swift  
+func welcome() -> Void {
+    print("Welcome to Swift")
+}
+~~~
+**7. External and internal parameter names**  
+
+Swift allows us to give different names to parameters when defining and calling a function.  
+~~~swift
+func greet(person name: String) {
+    print("Hello \(name)")
+}
+
+greet(person: "Ali")
+~~~
+
+Here:  
+person → external parameter name  
+name → internal parameter name  
+You can also use _ when you don't want to write the parameter name while calling:  
+~~~swift  
+func greet(_ name: String) {
+    print("Hello \(name)")
+}
+
+greet("Ali")
+~~~
+
+
+
 
  
      
